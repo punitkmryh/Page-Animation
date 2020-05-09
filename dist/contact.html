@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="/style.e0c02e61.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav>
+      <ul class="nav-list">
+        <li><a class="nav-links" href="/index.html">Home</a></li>
+        <li><a class="nav-links" href="/about.html">About</a></li>
+        <li><a class="nav-links" href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main data-router-wrapper="">
+      <section data-router-view="contact" class="contact">
+        <div class="contact-content">
+          <div class="contact-presentation">
+            <h1>Contact page</h1>
+            <p>More Contact page trannsition</p>
+          </div>
+          <img src="/undraw_contact_us_15o2.1fd6e03c.svg" alt="contact">
+        </div>
+      </section>
+    </main>
+  </body>
+  <!-- <script src="./js/index.js"></script> -->
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+  <script>gsap.from("img", {
+  opacity: 0,
+  duration: 1,
+  y: -50,
+  delay: 0.1,
+  ease: "bounce"
+});
+gsap.to(".contact-presentation", {
+  duration: 1.5,
+  ease: "Power1.easeOut",
+  y: 50
+});</script>
+</html>

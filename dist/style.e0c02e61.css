@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  box-sizing: 0px;
+}
+
+.nav-list {
+  display: flex;
+  height: 9vh;
+  width: 40%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  list-style: none;
+  font-weight: bold;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #441104;
+  font-family: "Muli", sans-serif;
+}
+
+.home {
+  font-family: "Muli", sans-serif;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+
+.about {
+  font-family: "Nunito", sans-serif;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.contact {
+  font-family: "Muli", sans-serif;
+  background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+}
+
+.home,
+.about,
+.contact {
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
+
+.home-content,
+.about-content,
+.contact-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.home-content img,
+.about-content img,
+.contact-content img {
+  height: 55%;
+}
+
+h1 {
+  font-size: 55px;
+  margin: 30px 0px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=/style.e0c02e61.css.map */
